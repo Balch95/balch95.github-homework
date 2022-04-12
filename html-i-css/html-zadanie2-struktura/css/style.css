@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+nav{
+    background-color: gray;
+}
+
+header{
+    background-color: aquamarine;
+    text-align: center;
+    position: relative;
+}
+
+section{
+    background-color: bisque;
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    text-align: center;
+}

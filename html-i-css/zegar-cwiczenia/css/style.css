@@ -1,0 +1,67 @@
+.box{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 486px;
+}
+
+
+.zegar{
+    font-size: 7rem;
+    width: 486px;
+    height: 15rem;
+    line-height: 16.5rem;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.zegar::after{
+    content: "10\A 9\A 8\A 7\A 6\A 5\A 4\A 3\A 2\A 1\A I love CSS";
+    white-space: pre;
+    position: relative;
+    animation: timer 11s linear infinite;
+    
+    
+}
+
+@keyframes timer {
+    0%, 9.09%{
+        top: 0;
+    }
+   9.10%, 18.19%{
+        top: -16.5rem;
+   }
+   18.20%, 27.29%{
+        top: -33rem;
+   } 
+   27.30%, 36.39%{
+        top: -49.5rem;
+   }
+   36.40%, 45.49%{
+        top: -66rem;
+   }
+   45.50%, 54.49%{
+        top: -82.5rem;
+   }
+   54.50%, 63.59%{
+        top: -99rem;
+   }
+   63.60%, 72.69%{
+        top: -115.5rem;
+   }
+   72.70%, 81.79%{
+        top: -132rem;
+   }
+   81.80%, 90.89%{
+        top: -148.5rem;
+   }
+   90.90%, 100%{
+        top: -165rem;
+   }
+
+}
+
+    

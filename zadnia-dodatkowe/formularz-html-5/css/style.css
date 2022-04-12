@@ -1,0 +1,44 @@
+form{
+    width: 450px;
+    height: 220px;
+    
+}
+
+.klient{
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: bisque;
+}
+
+.klient label{
+    display: inline-block;
+    padding: 10px;
+}
+
+.ksiazki{
+    border: solid 5px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: blanchedalmond;
+}
+
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+
+div p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,68 @@
+
+
+.lion{
+    border: 3px solid royalblue;
+    width: 200px;
+    height: 174px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+img{
+    width: 200px;
+    height: 174px;
+}
+
+.photo1{
+    transform: rotateY(180deg);
+}
+
+.photo2{
+    transform: translate(20%, 20%);
+}
+
+.photo3{
+    transform: scale(0.5);
+}
+
+@keyframes resize{
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.photo3{
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes big{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+}
+
+.photo2:hover{
+    animation-name: big;
+    animation-duration: 1s;
+}
