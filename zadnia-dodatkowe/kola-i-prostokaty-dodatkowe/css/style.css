@@ -1,0 +1,35 @@
+#kontener{
+    width: 800px;
+    height: 800px;
+    background-color: #008000;
+}
+#kontener div{
+    width: 150px;
+    height: 150px;
+    background-color: #FFA500;
+}
+#kontener div div{
+    width: 80px;
+    height: 80px;
+    background-color: #0000FF;
+    border-radius: 40px;
+}
+#el1{
+    transform: rotate(180deg);
+}
+#el2{
+    position: relative;
+    top:-150px;
+    left: 650px;
+    transform: rotate(270deg);
+}
+#el3{
+    position: relative;
+    top: 350px;
+    left: 650px;
+}
+#el4{
+    position: relative;
+    top: 200px;
+    transform: rotate(90deg);
+}

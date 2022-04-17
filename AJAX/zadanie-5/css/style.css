@@ -1,0 +1,19 @@
+#kurs p{
+    font-size: 2rem;
+}
+
+
+.fa-arrow-down{
+    color: red;
+    font-size: 1.8rem;
+}
+
+.fa-arrow-up{
+    color: green;
+    font-size: 1.8rem;
+}
+
+.fa-minus{
+    color: blue;
+    font-size: 1.8rem;
+}

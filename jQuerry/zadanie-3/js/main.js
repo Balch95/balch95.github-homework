@@ -4,10 +4,10 @@
             let salary = 0
             salary = parseInt($(element).children('.salary').text());
             suma = suma + salary
-        })
+        });
 
-        $('#sum').text(suma)
+        $('#sum').text(suma);
        
-    })
+    });
 
    
