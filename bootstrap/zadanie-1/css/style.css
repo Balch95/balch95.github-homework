@@ -1,0 +1,17 @@
+.icons{
+    font-size: 4rem;
+    color: #E38F42;
+}
+
+.icons:hover{
+    cursor: pointer;
+    color: lightblue;
+}   
+
+.icons p{
+    font-size: 1.2rem;
+}
+
+h2{
+    color: gray;
+}
