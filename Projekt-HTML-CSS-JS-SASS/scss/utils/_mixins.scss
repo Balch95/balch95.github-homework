@@ -1,0 +1,9 @@
+@mixin flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin flex-align($justyfiy, $align) {
+    justify-content: $justyfiy;
+    align-items: $align;
+}
