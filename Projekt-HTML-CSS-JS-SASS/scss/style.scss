@@ -6,8 +6,12 @@
 @import 'base/normalize';
 @import 'base/global';
 
+@import 'layout/gird';
 @import 'layout/nav';
 @import 'layout/header';
 @import 'layout/about';
+@import 'layout/services';
+
 
 @import 'components/buttons';
+@import 'components/infoboxes';
